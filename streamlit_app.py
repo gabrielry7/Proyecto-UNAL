@@ -287,3 +287,98 @@ st.markdown(
     - El consumidor latino en EE. UU. permite defender identidad cultural, autenticidad y canales iniciales especializados.
     """
 )
+
+st.markdown("## Preguntas metodológicas")
+st.markdown(
+    """
+    1. ¿Qué metodología usaron para hacer la proyección financiera?
+Usamos una metodología bottom-up. Es decir, no partimos de “queremos vender mucho”, sino de unidades concretas: paquetes vendidos por año, precio neto por paquete, costo variable unitario, costos fijos y margen. A partir de eso proyectamos ingresos, costos, EBITDA y punto de equilibrio.
+
+2. ¿Por qué bottom-up y no una proyección general del mercado?
+Porque HP2C es una empresa nueva. Aunque el mercado de alimentos funcionales en EE. UU. sea grande, eso no significa que nosotros vayamos a capturar una gran participación desde el inicio. Por eso preferimos una proyección por unidades vendidas, que es más prudente y defendible.
+
+3. ¿De dónde sale la proyección de 30.000 paquetes en el año 1?
+Sale de una lógica de validación gradual. 30.000 paquetes al año equivalen a 2.500 paquetes mensuales. Para una entrada inicial en tiendas latinas, tiendas saludables, gimnasios aliados y canales digitales, es una meta exigente, pero no absurda.
+
+4. ¿Cómo estimaron la producción requerida?
+Tomamos los paquetes vendidos esperados y agregamos una merma del 5%. La fórmula es: producción requerida = paquetes vendidos / 0,95. Por eso, para vender 30.000 paquetes necesitamos producir aproximadamente 31.579 paquetes.
+
+5. ¿Por qué usan una merma del 5%?
+Porque en alimentos congelados siempre hay pérdidas normales: pruebas de calidad, manipulación, errores de empaque, congelación, devoluciones o producto deteriorado. No sería realista asumir que el 100% de lo producido se vende perfectamente.
+
+6. ¿Cómo calcularon el volumen físico del producto?
+Cada arepa pesa 85 gramos y cada paquete trae 4 arepas. Entonces cada paquete pesa 340 gramos. En el año 1: 30.000 paquetes por 340 gramos son 10.200 kg, es decir, 10,2 toneladas vendidas.
+
+7. ¿Por qué usan precio neto y no precio final al consumidor?
+Porque HP2C no recibe todo lo que paga el consumidor final. Si una tienda vende el paquete a un precio retail, una parte queda para distribuidores, tiendas, promociones o comisiones. Por eso usamos precio neto: lo que realmente entra a HP2C.
+
+8. ¿Por qué el precio neto es US$5,40?
+Porque asumimos que HP2C vende a distribuidores o canales especializados con margen para el canal. El precio final puede estar cerca de US$8,99, pero el ingreso real de HP2C sería menor. US$5,40 permite modelar la empresa sin inflar artificialmente los ingresos.
+
+9. ¿Cómo calcularon el costo variable unitario de US$3,45?
+Lo construimos por componentes: ingredientes, whey protein, clara de huevo, queso, maquila, empaque, cadena de frío, flete, seguro, control de calidad y promoción inicial. Es decir, no es solo el costo de la arepa; incluye llevarla al mercado internacional.
+
+10. ¿Qué método usaron para medir rentabilidad?
+Usamos unit economics. Eso significa analizar cuánto deja cada unidad vendida. Precio neto menos costo variable unitario nos da el margen de contribución. En el caso base: US$5,40 - US$3,45 = US$1,95 por paquete.
+
+11. ¿Qué significa margen de contribución?
+Es lo que aporta cada paquete para cubrir costos fijos y generar utilidad. Si cada paquete deja US$1,95, entonces mientras más paquetes vendamos por encima del punto de equilibrio, más utilidad operativa genera el negocio.
+
+12. ¿Cómo calcularon el margen bruto de 36%?
+Con la fórmula: margen bruto = margen de contribución / precio neto. En este caso: US$1,95 / US$5,40 = 36,1%. Eso muestra que el producto tiene espacio para cubrir costos fijos y crecer.
+
+13. ¿Cómo calcularon el punto de equilibrio?
+Usamos la fórmula: punto de equilibrio = costos fijos / margen de contribución unitario. En año 1: US$50.000 / US$1,95 = 25.641 paquetes. Ese es el volumen mínimo para no perder dinero operativamente.
+
+14. ¿Por qué usan EBITDA como indicador?
+Porque EBITDA muestra la rentabilidad operativa antes de intereses, impuestos, depreciaciones y amortizaciones. Para una empresa temprana, sirve para ver si el negocio funciona antes de decisiones financieras o contables.
+
+15. ¿Qué metodología usaron para los escenarios pesimista, base y optimista?
+Usamos análisis de sensibilidad. Cambiamos variables clave: unidades vendidas, precio neto, costo unitario, costos fijos, tasa de descuento y múltiplos de valoración. Así evaluamos qué pasa si el mercado responde peor o mejor de lo esperado.
+
+16. ¿Por qué presentar solo el caso base si hay tres escenarios?
+Porque el caso base es el punto medio y más defendible para exposición. Los escenarios pesimista y optimista sirven como respaldo técnico: muestran que no dependemos de una sola predicción rígida y que analizamos riesgo.
+
+17. ¿Qué método usaron para valorar la empresa?
+Usamos valoración por múltiplos, específicamente múltiplo sobre ventas y múltiplo sobre EBITDA del año 3. Luego descontamos esos valores al presente porque HP2C todavía sería una empresa temprana y riesgosa.
+
+18. ¿Por qué usaron el año 3 para valorar y no el año 1?
+Porque el año 1 es de validación y todavía no refleja el potencial del negocio. El año 3 muestra una operación más estabilizada, con mayor volumen, mejores márgenes y datos más útiles para estimar valor futuro.
+
+19. ¿Por qué descuentan la valoración al presente?
+Porque un dólar de valor futuro no vale lo mismo que un dólar hoy, especialmente en una empresa nueva con riesgo comercial, logístico y regulatorio. Descontar al presente ajusta la valoración por incertidumbre.
+
+20. ¿Por qué la tasa de descuento es alta?
+Porque HP2C está en etapa temprana. Hay riesgo de aceptación del producto, riesgo logístico, riesgo de cadena de frío, riesgo regulatorio y riesgo comercial. Una tasa alta castiga la valoración y evita sobrevalorar el negocio.
+
+21. ¿Por qué usar múltiplo de ventas y múltiplo de EBITDA al mismo tiempo?
+Porque cada método mira algo distinto. El múltiplo de ventas captura potencial comercial y crecimiento. El múltiplo de EBITDA captura rentabilidad operativa. Usar ambos nos da una valoración más equilibrada.
+
+22. ¿Por qué no usaron solo flujo de caja descontado?
+Porque para una empresa nueva, el flujo de caja libre puede ser muy incierto. Un DCF completo exigiría muchos supuestos sobre impuestos, depreciación, inversión en activos, capital de trabajo y valor terminal. Para Shark Tank, múltiplos descontados son más simples y defendibles.
+
+23. ¿Cómo llegaron a la valoración pre-money de US$510.000?
+Calculamos un rango de valoración usando ventas y EBITDA proyectados del año 3, aplicamos múltiplos conservadores y descontamos al presente. El resultado cae alrededor de US$500.000 a US$600.000, por eso usamos US$510.000 como pre-money.
+
+24. ¿Qué significa pre-money y post-money?
+Pre-money es lo que vale la empresa antes de recibir inversión. Post-money es lo que vale después. Si HP2C vale US$510.000 antes y recibe US$90.000, la valoración post-money es US$600.000.
+
+25. ¿Por qué pedir US$90.000 por el 15%?
+Porque US$90.000 cubren producción inicial, empaque, cadena de frío, requisitos sanitarios, marketing y capital de trabajo. Si el inversionista recibe 15%, eso implica una valoración post-money de US$600.000, coherente con nuestro rango de valoración.
+
+26. ¿Qué variable afecta más el modelo financiero?
+La variable más sensible es el volumen vendido. Si vendemos menos paquetes, el negocio tarda más en cubrir costos fijos. Después vienen el precio neto y el costo variable, porque afectan directamente el margen por paquete.
+
+27. ¿Qué pasa si sube el costo del whey protein o la logística?
+Baja el margen de contribución y sube el punto de equilibrio. Por eso el escenario pesimista incluye costos unitarios más altos. La mitigación sería negociar proveedores, ajustar formulación o subir precio si el mercado lo permite.
+
+28. ¿Cómo se conecta la logística CIF con el modelo financiero?
+Como HP2C asume flete y seguro internacional bajo CIF, esos costos deben estar dentro del costo variable. Por eso nuestro costo unitario incluye no solo producción, sino también transporte internacional y protección de la mercancía.
+
+29. ¿Qué supuesto financiero sería el primero que validarían en la vida real?
+El precio neto. Antes de escalar, deberíamos validar cuánto pagaría realmente un distribuidor o tienda por paquete. Ese dato confirmaría si el margen de US$1,95 es realista.
+
+30. ¿Cuál es la conclusión metodológica del modelo?
+El modelo no intenta predecir el futuro con exactitud. Intenta probar si HP2C tiene lógica económica bajo supuestos razonables. En el caso base, el negocio supera punto de equilibrio en año 1 y escala con márgenes positivos, por eso es financieramente defendible.
+    """
+)
