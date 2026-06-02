@@ -421,4 +421,3 @@ preguntas_metodologicas = [
 for pregunta, respuesta in preguntas_metodologicas:
     with st.expander(pregunta):
         st.write(respuesta)
-)
