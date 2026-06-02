@@ -277,15 +277,6 @@ st.dataframe(
     hide_index=True
 )
 
-st.markdown("## Guion para defender el dashboard")
-st.write(
-    """
-    La lectura central es que HP2C no necesita ganar mucho en el primer año; necesita validar mercado y superar punto de equilibrio.
-    En el escenario base, la empresa vende 30.000 paquetes en el año 1 y supera el punto de equilibrio.
-    La rentabilidad aparece al escalar, porque el margen unitario se mantiene mientras muchos costos fijos crecen más lento que las ventas.
-    Por eso el año 3 es clave: si la empresa llega a 180.000 paquetes, ya muestra ingresos cercanos al millón de dólares y EBITDA positivo fuerte.
-    """
-)
 
 st.markdown("## Supuestos de respaldo")
 st.markdown(
